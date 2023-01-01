@@ -40,6 +40,13 @@ while True:
         print(f'{caminho_projeto}.py')
         print('Para ativar o ambiente virtual execute esse comando:\n')
         print('venv\\Scripts\\activate')
+
+        # Abrir o visual studio
+        call(f'cd {caminho_principal_projeto} && code .', shell=True)
+
+        # Ativar o ambiente virtual
+        call(f'cd {caminho_principal_projeto} && venv\\Scripts\\activate.bat',
+             shell=True)
     except FileNotFoundError as er:
         print('Erro ao criar o arquivo! Erro 324>>>', er)
     except CalledProcessError as er:
