@@ -23,28 +23,33 @@ while True:
         buscar_caminho = f'cd {caminho_principal_projeto}'
         cmd_venv = "python -m venv venv"
         call(f'{buscar_caminho} && {cmd_venv}', shell=True)
-        # 3 - Criar o arquivo principal
+
+        # 3 - Criar arquivo .gitignore
+        cmd_criar_arquivo = 'fsutil file createnew .gitignore 1000'
+        call(f'cd {caminho_principal_projeto} && {cmd_criar_arquivo}',
+             shell=True)
+
+        # 4 - Criar o arquivo principal
         print('\nO nome do arquivo principal é o mesmo do projeto principal ')
         novo_nome = input(
             'Quer mudar o nome do arquivo principal? [s/n] ').upper()
-        if (novo_nome == 'S'):
+        if novo_nome == 'S':
             novo_nome = input('Qual o novo nome do arquivo (.py)? \n')
-            caminho_projeto = caminho_principal_projeto+novo_nome
+            caminho_projeto = caminho_principal_projeto+'\\'+novo_nome
             nome_projeto_arquivo = open(
                 f'{caminho_projeto}.py', 'w')
-        caminho_projeto = caminho_principal_projeto+'\\'+nome_projeto_py
-        nome_projeto_arquivo = open(
-            f'{caminho_projeto}.py', 'w')
+        else:
+            caminho_projeto = caminho_principal_projeto+'\\'+nome_projeto_py
+            nome_projeto_arquivo = open(
+                f'{caminho_projeto}.py', 'w')
 
         print('\nProjeto criado com sucesso!')
         print(f'{caminho_projeto}.py')
-        print('Para ativar o ambiente virtual execute esse comando:\n')
-        print('venv\\Scripts\\activate')
 
-        # Abrir o visual studio
+        # 5 - Abrir o visual studio
         call(f'cd {caminho_principal_projeto} && code .', shell=True)
 
-        # Ativar o ambiente virtual
+        # 6 - Ativar o ambiente virtual
         call(f'cd {caminho_principal_projeto} && venv\\Scripts\\activate.bat',
              shell=True)
     except FileNotFoundError as er:
