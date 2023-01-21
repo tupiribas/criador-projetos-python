@@ -1,11 +1,11 @@
-(['C:\\projetos\\executavel\\criar_proj_py.py'],
- ['C:\\projetos\\executavel'],
+(['D:\\Python\\projetos\\executavel\\criar_proj_py.py'],
+ ['D:\\Python\\projetos\\executavel'],
  ['codecs'],
- ['C:\\projetos\\executavel\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
-  'C:\\projetos\\executavel\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks\\__pycache__',
-  'C:\\projetos\\executavel\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks',
-  'C:\\projetos\\executavel\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\__pycache__',
-  'C:\\projetos\\executavel\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
+ ['C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
+  'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks\\__pycache__',
+  'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks',
+  'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\__pycache__',
+  'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
  {},
  [],
  [],
@@ -13,12 +13,14 @@
  False,
  False,
  {},
- '3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit '
+ '3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit '
  '(AMD64)]',
  [('pyi_rth_inspect',
-   'C:\\projetos\\executavel\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
-  ('criar_proj_py', 'C:\\projetos\\executavel\\criar_proj_py.py', 'PYSOURCE')],
+  ('criar_proj_py',
+   'D:\\Python\\projetos\\executavel\\criar_proj_py.py',
+   'PYSOURCE')],
  [('inspect',
    'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\inspect.py',
    'PYMODULE'),
@@ -265,6 +267,12 @@
   ('ast',
    'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ast.py',
    'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
+   'PYMODULE'),
   ('tempfile',
    'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tempfile.py',
    'PYMODULE'),
@@ -298,14 +306,8 @@
   ('http.client',
    'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\http\\client.py',
    'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stringprep.py',
-   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_py_abc.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('subprocess',
    'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\lib\\subprocess.py',
@@ -317,83 +319,63 @@
    'C:\\Program '
    'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
-  ('python310.dll',
-   'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\python310.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
   ('VCRUNTIME140.dll',
    'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\VCRUNTIME140.dll',
    'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+  ('python310.dll',
+   'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\python310.dll',
    'BINARY'),
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
   ('ucrtbase.dll',
    'C:\\Program '
    'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\ucrtbase.dll',
-   'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-crt-time-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
+  ('api-ms-win-crt-process-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
+  ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
+  ('api-ms-win-core-string-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-string-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Program '
@@ -403,9 +385,9 @@
    'C:\\Program '
    'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-memory-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l2-1-0.dll',
    'C:\\Program '
@@ -415,61 +397,81 @@
    'C:\\Program '
    'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-heap-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
+  ('api-ms-win-core-synch-l1-2-0.dll',
    'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-synch-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-fibers-l1-1-0.dll',
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
+  ('api-ms-win-core-timezone-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+  ('api-ms-win-core-profile-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-profile-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-processthreads-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
+  ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-handle-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
   ('api-ms-win-core-libraryloader-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
+  ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-console-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-console-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
+  ('api-ms-win-core-file-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'Files\\Java\\zulu11.56.19-ca-jdk11.0.15-win_x64\\bin\\api-ms-win-core-file-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-processenvironment-l1-1-0.dll',
    'C:\\Program '
@@ -493,11 +495,11 @@
   ('_bz2.pyd',
    'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_bz2.pyd',
    'EXTENSION'),
-  ('_ssl.pyd',
-   'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_ssl.pyd',
-   'EXTENSION'),
   ('unicodedata.pyd',
    'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_ssl.pyd',
    'EXTENSION'),
   ('libcrypto-1_1.dll',
    'C:\\Users\\G-Fire\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\libcrypto-1_1.dll',
@@ -512,6 +514,6 @@
  [],
  [],
  [('base_library.zip',
-   'C:\\projetos\\executavel\\build\\criar_proj_py\\base_library.zip',
+   'D:\\Python\\projetos\\executavel\\build\\criar_proj_py\\base_library.zip',
    'DATA')],
  [])

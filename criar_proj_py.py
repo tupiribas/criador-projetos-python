@@ -5,17 +5,23 @@ while True:
     try:
         nome_projeto_py = ''
 
-        caminho_princial = 'C:\\projetos\\'
+        caminho_diretorio = ''
         caminho_principal_projeto = ''
         caminho_projeto = ''
 
         # temporaria
         novo_nome = ''
-        # 1 - Criar o nome da pasta do projeto:
+        # 1 - Informando o nome do diretório onde o projeto vai ser criado
+        caminho_diretorio = input(
+            'Cole o caminho do diretório do projeto \n') + "\\"
+
+        # 2 - Criar o nome da pasta do projeto no diretório criado logo a cima:
         nome_projeto_py = input(
             'Qual o nome do projeto? \n')
-        call(f'mkdir {caminho_princial}\\{nome_projeto_py}')
-        caminho_principal_projeto = caminho_princial+nome_projeto_py
+        call(f'mkdir {caminho_diretorio}\\{nome_projeto_py}')
+
+        # 2.1 - Informando a situação na tela
+        caminho_principal_projeto = caminho_diretorio+nome_projeto_py
         print('Caminho do seu projeto: ', caminho_principal_projeto)
 
         # 2 - Criar um ambiente virtual python - venv
@@ -54,7 +60,9 @@ while True:
              shell=True)
 
         # 7 - Criar arquivo requirements.txt
-        call('pip freeze > requirements.txt')
+        call(
+            f'cd {caminho_principal_projeto} && pip freeze > requirements.txt',
+            shell=True)
     except FileNotFoundError as er:
         print('Erro ao criar o arquivo! Erro 324>>>', er)
     except CalledProcessError as er:
