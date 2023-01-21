@@ -30,9 +30,9 @@ while True:
              shell=True)
 
         # 4 - Criar o arquivo principal
-        print('\nO nome do arquivo principal é o mesmo do projeto principal ')
+        print('\nO nome do arquivo principal é o mesmo do projeto principal, ')
         novo_nome = input(
-            'Quer mudar o nome do arquivo principal? [s/n] ').upper()
+            'quer mudar o nome do arquivo principal? [s/n] ').upper()
         if novo_nome == 'S':
             novo_nome = input('Qual o novo nome do arquivo (.py)? \n')
             caminho_projeto = caminho_principal_projeto+'\\'+novo_nome
@@ -52,6 +52,9 @@ while True:
         # 6 - Ativar o ambiente virtual
         call(f'cd {caminho_principal_projeto} && venv\\Scripts\\activate.bat',
              shell=True)
+
+        # 7 - Criar arquivo requirements.txt
+        call('pip freeze > requirements.txt')
     except FileNotFoundError as er:
         print('Erro ao criar o arquivo! Erro 324>>>', er)
     except CalledProcessError as er:
